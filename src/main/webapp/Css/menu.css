@@ -1,0 +1,10 @@
+/*如何让所有的li都不显示小圆点，可以使用css的标签选择器*/
+li{
+    list-style: none;/*是li前面的小圆点不显示*/
+    margin-left: 18px;/*让子菜单向右缩进一小段距离*/
+    display: none;/*让所有的子菜单先隐藏*/
+
+}
+a{
+    text-decoration: none;/*让链接的下划线消失*/
+}

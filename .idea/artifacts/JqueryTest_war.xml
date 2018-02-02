@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JqueryTest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="JqueryTest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JqueryTest:war exploded" />
+    </root>
+  </artifact>
+</component>

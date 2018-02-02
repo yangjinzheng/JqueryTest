@@ -1,0 +1,35 @@
+/*id选择器*/
+#win{
+    /*希望窗口有边框*/
+    border: 1px red solid;
+    /*希望窗口宽度和高度固定，不要太大*/
+    width: 300px;
+    height:200px;
+    /*控制一下窗口的内容*/
+    position: absolute;/*绝对定位*/
+    top: 100px;
+    left: 350px;
+    /*希望窗口开始时不可见*/
+    display: none;
+}
+/*控制标题栏的样式*/
+#title{
+    /*标题栏背景色*/
+    background-color:deepskyblue;
+    /*标题栏文字的颜色*/
+    color: red;
+    /*控制标题懒得左内边距*/
+    padding-left: 3px;
+}
+/*控制内容区域的样式*/
+#content{
+    padding-left: 3px;
+    padding-top: 5px;
+}
+/*控制关闭按钮的位置*/
+#close{
+    /*是关闭按钮向右侧移动*/
+    margin-left: 158px;
+    /*让鼠标进入是可以显示小手*/
+    cursor: pointer;
+}
